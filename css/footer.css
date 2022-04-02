@@ -1,0 +1,16 @@
+#footer {
+  padding: 2rem 0rem 2rem 0rem;
+  background-color: var(--dark-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+#footer h3 {
+  color: var(--green);
+}

@@ -1,0 +1,81 @@
+#about {
+}
+
+#about > p {
+  text-align: center;
+  color: var(--grey);
+  line-height: 3.2rem;
+
+  margin: 0rem 20.8rem 8.5rem 20.8rem;
+}
+
+#about #contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0rem 16.7rem 0rem 16.7rem;
+}
+
+#about .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .contact .icon {
+  background-color: var(--dark);
+  padding: 1.767rem;
+  clip-path: circle();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.9rem;
+  z-index: -1;
+}
+
+#about .contact i {
+  font-size: 3.2rem;
+  color: var(--green);
+}
+
+#about .contact p:nth-child(2) {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+#about .contact a {
+  color: var(--grey);
+  transition: color 0.2s;
+}
+
+#about .contact a:hover {
+  text-decoration: underline;
+  color: var(--green);
+}
+
+@media (max-width: 1264px) {
+  #about > p {
+    margin: 0rem 0rem 8.5rem 0rem;
+  }
+
+  #about #contacts {
+    margin: 0rem 9.7rem 0rem 9.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #about #contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #about {
+    height: 100%;
+  }
+}

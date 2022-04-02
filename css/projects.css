@@ -1,0 +1,69 @@
+#projects {
+}
+
+.cards-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.2rem 4.5rem;
+}
+
+.card-project {
+  padding: 2.5rem 2rem;
+  background-color: var(--dark);
+}
+
+.box-image-project {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 17rem;
+  margin-bottom: 2.3rem;
+}
+
+#dt-money {
+  background-image: url("https://github.com/pvsmda/fruitNinja/raw/main/screencapture-file-C-Users-paulo-Documents-projetos-FruitNinja-index-html-2021-12-26-09_59_16.png?raw=true");
+}
+
+#ig-news {
+  background-image: url("https://github.com/pvsmda/GeradorDeSenha/raw/main/screencapture-file-C-Users-paulo-Documents-ProjetosHtml-geradorDeSenhas-index-html-2022-01-27-14_25_12.png?raw=true");
+}
+
+#beauty-salon {
+  background-image: url("https://github.com/rocketseat-education/nlw-06-origin/raw/main/.github/preview.png");
+}
+
+#go-restaurant {
+  background-image: url("https://github.com/rocketseat-education/maratona-discover-01/raw/main/.github/devfinances.png");
+}
+
+#rocket-shoes {
+  background-image: url("https://github.com/pvsmda/dashboard/raw/main/screencapture-localhost-3000-2022-01-09-20_12_17.png");
+}
+
+#watchme {
+  background-image: url("https://github.com/tiagopierre/challenge01-react-ignite/raw/main/assets/screenshot.PNG");
+}
+
+.card-project img {
+  margin-bottom: 2.3rem;
+}
+
+.card-project > p:nth-child(2) {
+  font-weight: 500;
+}
+
+.card-project > p:nth-child(3) {
+  color: var(--grey);
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1280px) {
+  .cards-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 738px) {
+  .cards-projects {
+    grid-template-columns: 1fr;
+  }
+}
